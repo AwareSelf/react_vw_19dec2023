@@ -10,6 +10,7 @@ import Emp111 from './Emp111';
 import Empx from './Empx';
 import Empx1 from './Empx1';
 import MyTraining from './useState_MyTraining';
+import Employee from './useState_Emp';
 
 //these are similar in functionality toc class but you create it using function syntax
 //react - functional components  
@@ -23,6 +24,9 @@ UI component - React Functional component/Angular component
   4) props are used to initialise component properties. They are readonly.
 */
 function App() {
+
+  let sal = 5000;
+  let name = 'namrata';
   return (
     <div>
      {/*
@@ -53,6 +57,8 @@ function App() {
   */} 
 
     <MyTraining facultyname={'namrata'}/>  
+    <hr/>
+    <Employee eid={1} ename={name} esal={sal} />
        
     </div>
   );
