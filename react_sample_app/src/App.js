@@ -9,6 +9,7 @@ import Emp11 from './Emp11';
 import Emp111 from './Emp111';
 import Empx from './Empx';
 import Empx1 from './Empx1';
+import MyTraining from './useState_MyTraining';
 
 //these are similar in functionality toc class but you create it using function syntax
 //react - functional components  
@@ -24,7 +25,7 @@ UI component - React Functional component/Angular component
 function App() {
   return (
     <div>
-     
+     {/*
        <h4> All! Welcome to React Training</h4>
        <hr/>
        <Emp id={1} name={'Namrata'} salary={2000} />
@@ -49,7 +50,9 @@ function App() {
        <hr/>
        <p>Show Emp array using JSX map function and child Emp component</p>
        <Emparr1/>
-      
+  */} 
+
+    <MyTraining facultyname={'namrata'}/>  
        
     </div>
   );
