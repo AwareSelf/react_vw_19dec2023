@@ -11,6 +11,9 @@ import Empx from './Empx';
 import Empx1 from './Empx1';
 import MyTraining from './useState_MyTraining';
 import Employee from './useState_Emp';
+import MyForm from './MyForm';
+import MyForm1 from './MyForm1';
+import MyForm2 from './MyForm2';
 
 //these are similar in functionality toc class but you create it using function syntax
 //react - functional components  
@@ -54,12 +57,18 @@ function App() {
        <hr/>
        <p>Show Emp array using JSX map function and child Emp component</p>
        <Emparr1/>
-  */} 
+ 
 
     <MyTraining facultyname={'namrata'}/>  
     <hr/>
     <Employee eid={1} ename={name} esal={sal} />
-       
+    <hr/>
+    <MyForm />
+    <hr/>
+    <MyForm1 />
+     <hr/>
+      */} 
+    <MyForm2/>
     </div>
   );
 }
