@@ -14,6 +14,7 @@ import Employee from './useState_Emp';
 import MyForm from './MyForm';
 import MyForm1 from './MyForm1';
 import MyForm2 from './MyForm2';
+import EmpLibEx from './EmpLibEx';
 
 //these are similar in functionality toc class but you create it using function syntax
 //react - functional components  
@@ -62,13 +63,19 @@ function App() {
     <MyTraining facultyname={'namrata'}/>  
     <hr/>
     <Employee eid={1} ename={name} esal={sal} />
-    <hr/>
-    <MyForm />
+   
     <hr/>
     <MyForm1 />
      <hr/>
-      */} 
+     
+    
+    <MyForm />
+    <hr/>
     <MyForm2/>
+  
+    <hr/>
+     */} 
+    <EmpLibEx empid={3} empname={'Rohit Sharma'} empsal={560000}/>
     </div>
   );
 }
