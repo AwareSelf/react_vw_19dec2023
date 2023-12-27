@@ -35,13 +35,13 @@ function ListEmp(props)
    
 
     return(
-        <div>
+        <div className="container">
         {loading ? (
             <p>loading...</p>
         ) : error ? (
             <p>{error}</p>
         ) : (
-            <table>
+            <table  className='table table-striped'>
                 <thead>
                 <tr>
                     <th>{'Empid'}</th>

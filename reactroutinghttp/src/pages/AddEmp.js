@@ -64,7 +64,7 @@ function AddEmp(props)
      }
     
         return(
-            <>
+            <div className='container'>
             <form onSubmit={handleSubmit}>
 
              <div className="form-group">
@@ -122,7 +122,7 @@ function AddEmp(props)
                
             </div>
 
-            </>
+            </div>
         );
 }
 
